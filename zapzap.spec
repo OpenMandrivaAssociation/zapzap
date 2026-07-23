@@ -3,7 +3,7 @@ Name:	zapzap
 Version:		7.0.2
 Release:		1
 License:		GPLv3+
-Group:	Sound
+Group:	Networking/Instant Messenger
 Url:		https://github.com/rafatosta/zapzap
 Source0:	https://github.com/rafatosta/zapzap/archive/refs/tags/%{name}-%{version}.tar.gz
 Patch0:	zapzap-7.0.2-fix-webengine-dictionaries-path.patch
