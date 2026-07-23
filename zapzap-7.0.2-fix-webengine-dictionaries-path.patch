@@ -1,0 +1,12 @@
+diff -rupN zapzap-7.0.2.old/zapzap/core/config/path_manager.py zapzap-7.0.2/zapzap/core/config/path_manager.py
+--- zapzap-7.0.2.old/zapzap/core/config/path_manager.py	2026-07-23 02:48:54.000000000 +0200
++++ zapzap-7.0.2/zapzap/core/config/path_manager.py	2026-07-23 15:54:39.716647360 +0200
+@@ -26,7 +26,7 @@ class PathManager:
+         },
+         Packaging.RPM: {
+             "path": "",
+-            "default": "/usr/share/qt6/qtwebengine_dictionaries",
++            "default": "/usr/lib64/qt6/qtwebengine_dictionaries",
+         },
+         Packaging.UNOFFICIAL: {
+             "path": "",
