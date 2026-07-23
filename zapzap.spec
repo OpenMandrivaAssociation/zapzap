@@ -9,6 +9,7 @@ Source0:	https://github.com/rafatosta/zapzap/archive/refs/tags/%{name}-%{version
 Patch0:	zapzap-7.0.2-fix-webengine-dictionaries-path.patch
 BuildRequires:		desktop-file-utils
 BuildRequires:		python-gettext
+BuildRequires:		python-pip
 BuildRequires:		python-pyproject-api
 BuildRequires:		python-pyproject-metadata
 BuildRequires:		python-qt6-webengine
