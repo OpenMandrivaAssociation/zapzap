@@ -20,6 +20,13 @@ BuildRequires:		pkgconfig(pyside6)
 BuildRequires:		pkgconfig(python)
 BuildArch:		noarch
 
+Requires:  python-qt6-gui
+Requires:  python-qt6-widgets
+Requires:  python-qt6-network
+Requires:  python-qt6-dbus
+Requires:  python-qt6-webchannel
+Requires:  python-qt6-printsupport
+
 %description
 WhatsApp desktop application for Linux.
 Key features:
