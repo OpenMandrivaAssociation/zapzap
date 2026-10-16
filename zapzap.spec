@@ -1,7 +1,7 @@
 Summary:		Whatsapp Desktop app for Linux
 Name:	zapzap
 Version:		7.2
-Release:		2
+Release:		3
 License:		GPLv3+
 Group:	Networking/Instant Messenger
 Url:		https://github.com/rafatosta/zapzap
@@ -54,7 +54,7 @@ Key features:
 %autosetup -p1 -n %{name}-%{version}
 
 # Fix shebangs
-sed -i "s|!/usr/bin/env python|!%{_bindir}/python3|" *.py
+sed -i "s|!/usr/bin/env python|!%{_bindir}/python|" *.py
 
 
 %build
